@@ -17,3 +17,4 @@ else
 	cd ./build/release/
 	cmake -DCMAKE_BUILD_TYPE=RELEASE ../../
 fi
+cmake --help-policy CMP0042

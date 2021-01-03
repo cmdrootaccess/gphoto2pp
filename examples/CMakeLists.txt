@@ -1,6 +1,6 @@
 set(EXECUTABLE_OUTPUT_PATH ${EXECUTABLE_OUTPUT_PATH}/examples)
 
-add_custom_target( examples )
+add_custom_target(examples)
 
 FILE(GLOB EXAMPLES_SOURCE_FILES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "*.cpp")
 foreach( examplesourcefile ${EXAMPLES_SOURCE_FILES} )
